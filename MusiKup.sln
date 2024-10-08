@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DE394231-5295-4F3E-AA6B-A614C0877218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusiKup.Domain", "MusiKup.Domain\MusiKup.Domain.csproj", "{0AD78F65-8777-4083-930A-8D39D49E1EC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AD78F65-8777-4083-930A-8D39D49E1EC1} = {DE394231-5295-4F3E-AA6B-A614C0877218}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AD78F65-8777-4083-930A-8D39D49E1EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AD78F65-8777-4083-930A-8D39D49E1EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AD78F65-8777-4083-930A-8D39D49E1EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AD78F65-8777-4083-930A-8D39D49E1EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
