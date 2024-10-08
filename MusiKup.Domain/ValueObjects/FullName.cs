@@ -6,7 +6,5 @@ public class FullName
     
     public string LastName { get; set; }
     
-    public string? FatherName { get; set; }
-    
-    
+    public string? MiddleName { get; set; }
 }
