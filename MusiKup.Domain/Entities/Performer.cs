@@ -1,6 +1,6 @@
 ﻿namespace MusiKup.Domain.Entities;
 
-public class Performers : BaseEntity
+public class Performer : BaseEntity
 {
     public ICollection<Music> Tracks { get; set; }
     

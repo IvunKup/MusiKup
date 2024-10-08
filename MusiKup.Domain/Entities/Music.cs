@@ -6,11 +6,13 @@ public class Music : BaseEntity
     
     public string Title { get; set; }
     
-    public Authors Autor { get; set; }
+    public Author Autor { get; set; }
     
     public Guid AutorId { get; set; }
     
-    public Playlists Playlist { get; set; }
+    public Performer Performer { get; set; }
     
-    public Guid PlaylistId { get; set; }
+    public Guid PerformerId { get; set; }
+    
+    public ICollection<Playlist> Playlists { get; set; }
 }
