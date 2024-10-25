@@ -1,16 +1,12 @@
-﻿namespace MusiKup.Domain.Entities;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class User : BaseEntity
+namespace MusiKup.Domain.Entities;
+
+public class User : IdentityUser<Guid>
 {
-    public int TelegramId { get; set; }
-    public string TelegramName { get; set; }
 
-    public User(Guid id, DateTime createOn, DateTime modifiedOn, int telegramId, string telegramName)
+    public User(Guid id)
     {
         Id = id;
-        CreatedOn = createOn;
-        ModifiedOn = modifiedOn;
-        TelegramId = telegramId;
-        TelegramName = telegramName;
     }
 }

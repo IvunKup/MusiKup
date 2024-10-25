@@ -1,6 +1,6 @@
 ﻿namespace MusiKup.Domain.Entities;
 
-public class Music : BaseEntity
+public class Track : BaseEntity
 {
     public Enum Genre { get; set; }
     
