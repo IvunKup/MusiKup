@@ -1,12 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using MusiKup.Domain.Entities.Files;
 
 namespace MusiKup.Domain.Entities;
 
 public class User : IdentityUser<Guid>
 {
-
-    public User(Guid id)
-    {
-        Id = id;
-    }
+    public ICollection<UserFile> UserFiles { get; set; }
+    
 }
