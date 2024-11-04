@@ -23,4 +23,31 @@ public class BaseEntity
     {
         return Id.GetHashCode();
     }
+    
+    public override string ToString()
+    {
+        var props = GetType().GetProperties();
+        var values = props.Select(prop => $"{prop.Name}: {prop.GetValue(this) ?? "null"}");
+        return string.Join(" ", values);
+    }
+
+    public static bool operator ==(BaseEntity a, BaseEntity b)
+    {
+        if (ReferenceEquals(a, b))
+        {
+            return true;
+        }
+
+        if (a is null || b is null)
+        {
+            return false;
+        }
+        
+        return a.Equals(b);
+    }
+
+    public static bool operator !=(BaseEntity a, BaseEntity b)
+    {
+        return !(a == b);
+    }
 }

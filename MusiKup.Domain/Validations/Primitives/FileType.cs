@@ -1,11 +1,12 @@
 ﻿namespace MusiKup.Domain.Validations.Primitives;
 
-public enum FileTipe
+public enum FileType
 {
     MP3 = 0,
     WAV = 1,
     OGG = 2,
-    JPEG = 3,
-    PNG = 4,
-    GIF = 5
+    AAC = 3,
+    JPEG = 4,
+    PNG = 5,
+    GIF = 6
 }

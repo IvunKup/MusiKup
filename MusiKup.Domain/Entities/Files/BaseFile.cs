@@ -10,5 +10,5 @@ public class BaseFile
     
     public string FilePath { get; set; }
     
-    public FileTipe FileTipe { get; set; }
+    public FileType FileType { get; set; }
 }
