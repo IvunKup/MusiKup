@@ -16,6 +16,6 @@ public class ExceptionMessages
     public static readonly Func<string, string> DefaultEnum = param => $"Enum {param} can't be default";
     public static readonly Func<string, string> InvalidEnumValue = param => $"{param} Invalid enum value";
     public static readonly Func<string, string> InvalidSpelling = param => $"{param} is invalid spelling";
-    public static readonly Func<string, string> InvalidLengh = param => $"{param} is invalid lengh";
+    public static readonly Func<string, string> InvalidLength = param => $"{param} is invalid length";
     public static readonly Func<string, string> InvalidPath = param => $"{param} path is incorrect";
 }

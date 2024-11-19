@@ -11,6 +11,6 @@ public class TrackValidator : AbstractValidator<Track>
     {
         RuleFor(param => param.Title)
             .NotNullOrEmptyWithMessage(nameof(Track.Title))
-            .MaximumLength(200).WithMessage(ExceptionMessages.InvalidLengh(nameof(Track.Title)));
+            .MaximumLength(200).WithMessage(ExceptionMessages.InvalidLength(nameof(Track.Title)));
     }
 }

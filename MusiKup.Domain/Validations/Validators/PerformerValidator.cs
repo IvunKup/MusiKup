@@ -11,7 +11,7 @@ public class PerformerValidator : AbstractValidator<Performer>
     {
         RuleFor(param => param.NickName)
             .NotNullOrEmptyWithMessage(nameof(Performer.NickName))
-            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLengh(nameof(Performer.NickName)));
+            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLength(nameof(Performer.NickName)));
         RuleFor(param => param.FullName)
             .SetValidator(new FullNameValidator(nameof(Performer.FullName)));
     }

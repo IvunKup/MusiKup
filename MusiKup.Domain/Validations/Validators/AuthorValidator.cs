@@ -11,7 +11,7 @@ public class AuthorValidator : AbstractValidator<Author>
     {
         RuleFor(param => param.NickName)
             .NotNullOrEmptyWithMessage(nameof(Author.NickName))
-            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLengh(nameof(Author.NickName)));
+            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLength(nameof(Author.NickName)));
         RuleFor(param => param.FullName)
             .SetValidator(new FullNameValidator(nameof(Author.FullName)));
     }

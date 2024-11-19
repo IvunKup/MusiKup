@@ -11,9 +11,9 @@ public class BaseFileValidator : AbstractValidator<BaseFile>
     {
         RuleFor(param => param.FileName)
             .NotNullOrEmptyWithMessage(nameof(BaseFile.FileName))
-            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLengh(nameof(BaseFile.FileName)));
+            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLength(nameof(BaseFile.FileName)));
         RuleFor(param => param.FilePath)
             .NotNullOrEmptyWithMessage(nameof(BaseFile.FilePath))
-            .Must(Path.IsPathFullyQualified).WithMessage(ExceptionMessages.InvalidLengh(nameof(BaseFile.FilePath)));
+            .Must(Path.IsPathFullyQualified).WithMessage(ExceptionMessages.InvalidLength(nameof(BaseFile.FilePath)));
     }
 }
