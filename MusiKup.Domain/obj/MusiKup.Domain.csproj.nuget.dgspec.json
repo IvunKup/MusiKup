@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\MusiKup\\MusiKup.Domain\\MusiKup.Domain.csproj": {}
+    "C:\\Users\\ykapel\\Desktop\\Диплом\\MusiKup.Domain\\MusiKup.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\MusiKup\\MusiKup.Domain\\MusiKup.Domain.csproj": {
+    "C:\\Users\\ykapel\\Desktop\\Диплом\\MusiKup.Domain\\MusiKup.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MusiKup\\MusiKup.Domain\\MusiKup.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ykapel\\Desktop\\Диплом\\MusiKup.Domain\\MusiKup.Domain.csproj",
         "projectName": "MusiKup.Domain",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\MusiKup\\MusiKup.Domain\\MusiKup.Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\MusiKup\\MusiKup.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ykapel\\Desktop\\Диплом\\MusiKup.Domain\\MusiKup.Domain.csproj",
+        "packagesPath": "C:\\Users\\ykapel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ykapel\\Desktop\\Диплом\\MusiKup.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ykapel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +45,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[9.0.0-rc.2.24474.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

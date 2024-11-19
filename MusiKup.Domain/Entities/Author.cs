@@ -1,10 +1,15 @@
-﻿namespace MusiKup.Domain.Entities;
+﻿using MusiKup.Domain.Entities.Files;
+using MusiKup.Domain.ValueObjects;
+
+namespace MusiKup.Domain.Entities;
 
 public class Author : BaseEntity
 {
-    public ICollection<Music> Tracks { get; set; }
-    
+    public ICollection<Track> Tracks { get; set; }
+
     public string NickName { get; set; }
-    
-    public object FullName { get; set; }
+
+    public FullName FullName { get; set; }
+
+    public ICollection<AuthorFile> AuthorFiles { get; set; }
 }

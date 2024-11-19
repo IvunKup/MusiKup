@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MusiKup.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9bcda4805f15d559d1e41ff3640fac52b867519")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b0cb834562382440a5d2bec75e4901b9ff3fcf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MusiKup.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MusiKup.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
