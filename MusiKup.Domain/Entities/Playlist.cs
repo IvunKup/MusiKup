@@ -6,6 +6,8 @@ public class Playlist : BaseEntity
 {
     public string Title { get; set; }
     public string Description { get; set; }
+    
+    public ICollection<Track> Tracks { get; set; }
 
     public ICollection<PlaylistFile> PlaylistFiles { get; set; }
 
