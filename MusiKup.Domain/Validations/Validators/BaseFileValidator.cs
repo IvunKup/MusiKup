@@ -1,8 +1,7 @@
 ﻿using Domain.Validations;
 using FluentValidation;
 using MusiKup.Domain.Entities.Files;
-
-//TODO: Дописать Must и сделать оставшиеся валидаторы для файлов.
+using MusiKup.Domain.Validations.Primitives;
 
 namespace MusiKup.Domain.Validations.Validators;
 
@@ -12,9 +11,9 @@ public class BaseFileValidator : AbstractValidator<BaseFile>
     {
         RuleFor(param => param.FileName)
             .NotNullOrEmptyWithMessage(nameof(BaseFile.FileName))
-            .Length(1, 100);
+            .Length(1, 100).WithMessage(ExceptionMessages.InvalidLengh(nameof(BaseFile.FileName)));
         RuleFor(param => param.FilePath)
             .NotNullOrEmptyWithMessage(nameof(BaseFile.FilePath))
-            .Must(Path.IsPathFullyQualified);
+            .Must(Path.IsPathFullyQualified).WithMessage(ExceptionMessages.InvalidLengh(nameof(BaseFile.FilePath)));
     }
 }

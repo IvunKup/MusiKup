@@ -5,7 +5,7 @@ public class BaseEntity
     public Guid Id { get; set; }
     public DateTime CreatedOn { get; set; }
     public DateTime ModifiedOn { get; set; }
-    
+
     public override bool Equals(object? obj)
     {
         if (obj is null)
@@ -23,7 +23,7 @@ public class BaseEntity
     {
         return Id.GetHashCode();
     }
-    
+
     public override string ToString()
     {
         var props = GetType().GetProperties();
@@ -42,7 +42,7 @@ public class BaseEntity
         {
             return false;
         }
-        
+
         return a.Equals(b);
     }
 

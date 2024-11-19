@@ -3,4 +3,5 @@
 public class AuthorFile : BaseFile
 {
     public Author Author { get; set; }
+    public Guid AuthorId { get; set; }
 }

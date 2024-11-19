@@ -3,4 +3,5 @@
 public class PlaylistFile : BaseFile
 {
     public Playlist Playlist { get; set; }
+    public Guid PlaylistId { get; set; }
 }
