@@ -8,15 +8,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Dal\Repositories\" />
+        <Folder Include="Dal\Repositories\"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\MusiKup.Domain\MusiKup.Domain.csproj" />
+        <ProjectReference Include="..\MusiKup.Domain\MusiKup.Domain.csproj"/>
     </ItemGroup>
 
 </Project>

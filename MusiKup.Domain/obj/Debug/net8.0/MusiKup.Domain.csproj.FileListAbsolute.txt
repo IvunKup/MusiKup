@@ -1,0 +1,13 @@
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\bin\Debug\net8.0\MusiKup.Domain.deps.json
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\bin\Debug\net8.0\MusiKup.Domain.dll
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\bin\Debug\net8.0\MusiKup.Domain.pdb
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.csproj.AssemblyReference.cache
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.AssemblyInfoInputs.cache
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.AssemblyInfo.cs
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.sourcelink.json
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.dll
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\refint\MusiKup.Domain.dll
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\MusiKup.Domain.pdb
+C:\Users\ykapel\Desktop\Диплом\MusiKup.Domain\obj\Debug\net8.0\ref\MusiKup.Domain.dll

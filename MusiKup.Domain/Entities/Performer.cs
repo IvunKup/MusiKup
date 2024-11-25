@@ -12,4 +12,14 @@ public class Performer : BaseEntity
     public FullName FullName { get; set; }
 
     public ICollection<PerformerFile> PerformerFiles { get; set; }
+
+    public Performer(string nickName, FullName fullName)
+    {
+        NickName = nickName;
+        FullName = fullName;
+    }
+
+    public Performer()
+    {
+    }
 }

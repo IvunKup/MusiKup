@@ -2,7 +2,7 @@
 
 namespace MusiKup.Domain.Entities.Files;
 
-public class BaseFile
+public class BaseFile : BaseEntity
 {
     public string FileName { get; set; }
 

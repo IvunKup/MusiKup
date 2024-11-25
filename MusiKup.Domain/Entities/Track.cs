@@ -20,4 +20,8 @@ public class Track : BaseEntity
     public ICollection<Playlist> Playlists { get; set; }
 
     public ICollection<TrackFile> TrackFiles { get; set; }
+
+    public Track()
+    {
+    }
 }

@@ -12,4 +12,14 @@ public class Author : BaseEntity
     public FullName FullName { get; set; }
 
     public ICollection<AuthorFile> AuthorFiles { get; set; }
+
+    public Author(string nickName, FullName fullName)
+    {
+        NickName = nickName;
+        FullName = fullName;
+    }
+
+    public Author()
+    {
+    }
 }
