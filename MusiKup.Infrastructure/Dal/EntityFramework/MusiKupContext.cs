@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MusiKup.Domain.Entities;
 using MusiKup.Domain.Entities.Files;
 
 namespace MusiKup.Infrusructure.Dal.EntityFramework;
 
-public class MusiKupContext : DbContext
+public class MusiKupContext : IdentityDbContext<User, IdentityRole<Guid>, Guid>
 {
     public DbSet<Author> Authors => Set<Author>();
 

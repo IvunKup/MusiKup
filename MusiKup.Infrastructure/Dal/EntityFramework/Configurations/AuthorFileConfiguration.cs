@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using MusiKup.Domain.Entities.Files;
-using MusiKup.Domain.Validations.Validators;
 
 namespace MusiKup.Infrusructure.Dal.EntityFramework.Configurations;
 

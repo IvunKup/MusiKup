@@ -1,6 +1,5 @@
 ﻿using Domain.Validations;
 using FluentValidation;
-using MusiKup.Domain.Entities;
 using MusiKup.Domain.Validations.Primitives;
 using MusiKup.Domain.ValueObjects;
 

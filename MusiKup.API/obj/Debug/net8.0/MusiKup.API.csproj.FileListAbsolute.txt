@@ -143,3 +143,4 @@ C:\Users\ykapel\Desktop\Диплом\MusiKup.API\obj\Debug\net8.0\MusiKup.API.ge
 C:\Users\ykapel\Desktop\Диплом\MusiKup.API\obj\Debug\net8.0\ref\MusiKup.API.dll
 C:\Users\ykapel\Desktop\Диплом\MusiKup.API\bin\Debug\net8.0\Npgsql.dll
 C:\Users\ykapel\Desktop\Диплом\MusiKup.API\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\ykapel\Desktop\Диплом\MusiKup.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
